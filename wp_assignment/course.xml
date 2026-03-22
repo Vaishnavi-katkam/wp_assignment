@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<courses>
+    <course id="C001">
+        <title>Web Development</title>
+        <instructor>Ms. Priya</instructor>
+        <price>5000</price>
+        <rating>4.5</rating>
+        <duration>6 Weeks</duration>
+        <description>Learn HTML, CSS, JavaScript, and build responsive websites.</description>
+    </course>
+    <course id="C002">
+        <title>Python Programming</title>
+        <instructor>Mr. Ramesh</instructor>
+        <price>4500</price>
+        <rating>4.7</rating>
+        <duration>5 Weeks</duration>
+        <description>Learn Python programming from basics to advanced topics with projects.</description>
+    </course>
+    <course id="C003">
+        <title>Machine Learning</title>
+        <instructor>Mrs. Neha</instructor>
+        <price>7000</price>
+        <rating>4.8</rating>
+        <duration>8 Weeks</duration>
+        <description>Introduction to Machine Learning algorithms, data preprocessing, and real-world projects.</description>
+    </course>
+</courses>
