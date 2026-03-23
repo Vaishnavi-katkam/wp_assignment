@@ -1,0 +1,323 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+header{
+    background : #f97316;
+    padding : 15px;
+    color : white;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow : 0 4px 10px rgba(0,0,0,0.1);
+}
+header h1{
+    font-size : 28px;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap : 30px;
+}
+header ul li a{
+    color : white;
+    font-weight : bold;
+    text-decoration : none;
+    font-size: 16px;
+}
+header ul li a:hover{
+    text-decoration: underline;
+}
+body{
+    font-family: arial,sans-serif;
+    background : #fff7ed;
+    color : #1f2937;
+    line-height : 1.6;
+}
+.banner{
+    background : linear-gradient(135deg, #f97316, #fff7ed);
+    color : white;
+    text-align: center;
+    font-size : 24px;
+    padding-bottom : 80px;
+}
+.banner img{
+    height:360px;
+    width:100%;
+    object-fit:cover;
+}
+.banner p{
+    font-size : 18px;
+    color : #333;
+    margin-bottom : 20px;
+}
+.banner .gradient-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+    background: linear-gradient(90deg, #f97316, #fb923c);
+    color: white;
+    text-decoration: none;
+}
+.banner .gradient-btn:hover {
+    background: linear-gradient(90deg, #ea580c, #f97316);
+}
+.btn {
+    display: inline-block;
+    background: blue;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background: darkblue;
+}
+button {
+    background : blue;
+    color : white;
+    padding : 10px;
+    transition :background 0.3s ease;
+}
+button:hover{
+    background : darkblue;
+}
+footer{
+    text-align : center;
+    padding : 25px 20px;
+    background : #1f2973;
+    color : white;
+    font-size: 14px;
+}
+.login{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    min-height : 100vh;
+    background: linear-gradient(135deg, #ffffff, #fff7ed);
+}
+.login form{
+    width : 100%;
+    background : white;
+    padding : 20px;
+    max-width: 320px;
+    margin : auto;
+    border-radius : 10px;
+    box-shadow : 0 4px 15px rgba(0,0,0,0.15);
+}
+.login h2{
+    text-align: center;
+    margin-bottom : 20px;
+}
+.login input,.login textarea {
+    width: 100%;
+    margin : 5px auto;
+    padding : 8px;
+    display : block;
+    border-radius : 6px;
+    border : 1px solid #d1d5db;
+    box-sizing: border-box;
+}
+.login form button {
+    width: 100%;              
+    margin-top: 10px;
+    padding: 10px;
+    background: #f97316;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.course-card .btn {
+    display: block;
+    width: 80%;
+    margin: 8px auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    background: #f97316;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.course-card .btn:hover {
+    background: #ea580c;
+}
+.courses{
+    padding : 20px;
+    text-align: center;
+}
+.courses h2{
+    font-size : 36px;
+    color : #f97316;
+    margin-bottom : 20px;
+}
+.courses-container{
+    display : grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    justify-content : flex-start;
+    gap : 30px;
+    padding : 20px;
+}
+.course-card{
+    background : white;
+    border-radius : 15px;
+    box-shadow : 0 8px 25px rgba(0,0,0,0.1);
+    padding : 20px;
+    text-align : center;
+    box-sizing : border-box;
+    width : 100%;
+    max-width: 400px;
+    min-height: 200px;
+    overflow: hidden;
+
+}
+.course-card:hover{
+    transform: translateY(-8px);
+    box-shadow : 0 15px 30px rgba(0,0,0,0.15);
+}
+.course-card h3{
+    color : #f97316;
+    margin-bottom : 10px;
+}
+.course-card p{
+    margin-bottom: 8px;
+    color : #374151;
+}
+.course-card .btn{
+    background : #f97316;
+    color : white;
+    padding : 10px 15px;
+    border : none;
+    border-radius : 8px;
+    cursor : pointer;
+    font-weight : 600;
+    transition : background 0.3s, transform 0.2s;
+}
+.course-card .btn:hover{
+    background : #fb923c;
+
+}
+.course-details {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff7ed;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.course-details h2 {
+    color: #f97316;
+    font-size: 32px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.course-details p {
+    margin-bottom: 12px;
+}
+
+.course-details .btn {
+    display: block;
+    width: 50%;
+    margin: 20px auto 0 auto;
+    padding: 12px;
+    text-align: center;
+}
+footer {
+    margin-bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #1f2973;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+    .enquiry-container {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1000px;
+        margin: 50px auto;
+        gap: 30px;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .contact {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        padding: 20px 25px;
+        flex: 0 0 auto;
+        text-align: left;
+    }
+
+    .contact h2 {
+        color: #f97316;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .contact p {
+        font-size: 15px;
+        margin: 5px 0;
+        line-height: 1.4;
+        padding-bottom: 10px;
+    }
+
+    .enquiry-form {
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        padding: 30px;
+        flex: 1 1 400px;
+        box-sizing: border-box;
+    }
+
+    .enquiry-form h2 {
+        color: #f97316;
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+    }
+
+    .enquiry-form input,
+    .enquiry-form textarea {
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 6px;
+        border: 1px solid #d1d5db;
+        box-sizing: border-box;
+        font-size: 14px;
+    }
+
+    .enquiry-form button {
+        width: 100%;
+        margin-top: 10px;
+        padding: 12px;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 16px;
+        background: linear-gradient(90deg, #f97316, #fb923c);
+        color: white;
+    }
+
+    .enquiry-form button:hover {
+        background: linear-gradient(90deg, #ea580c, #f97316);
+    }
