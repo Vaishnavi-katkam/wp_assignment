@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | IgniteLearn</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="enquiry-container">
+    <form class="enquiry-form" onsubmit="event.preventDefault(); alert('Enquiry Sent Successfully!'); this.reset();">
+        <h2>Send an Enquiry</h2>
+        <input type="text" id="name" placeholder="Your Name" required>
+        <input type="email" id="email" placeholder="Your Email" required>
+        <input type="text" id="subject" placeholder="Subject" required>
+        <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p><strong>Address:</strong><br> IgniteLearn Education Pvt. Ltd. <br>4th Floor, Phoenix Tower 1,
+<br>Financial District,Nanakramguda<br>Hyderabad – 500032</p>
+        <p><strong>Email:</strong> <br>support@ignitelearn.com</p>
+        <p><strong>Phone:<strong><br> +91 9876543210</p>
+    </div>
+</div>
+
+</body>
+</html>
